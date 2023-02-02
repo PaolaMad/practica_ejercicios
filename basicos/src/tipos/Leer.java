@@ -11,11 +11,11 @@ public class Leer{
         
         Scanner scanner = new Scanner(System.in);
         
-        System.err.print("Ingrese su nombre: ");
+        System.out.println("Ingrese su nombre");
         String nombre = scanner.nextLine();
         
-        System.err.println("------------------");
-        System.err.println("Hola" + nombre);
+        System.out.println("------------------");
+        System.out.println("Hola" + nombre);
         
     }
 }
